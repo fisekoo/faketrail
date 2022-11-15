@@ -9,7 +9,7 @@ public class FakeTrail : MonoBehaviour
     [SerializeField] private int _trailPositionCount = 30;
     [SerializeField] private Transform targetDir; // targetDir objesinin Y oku nereye bakıyorsa oraya doğru bir kuyruk oluşturulacak.
     [SerializeField] private float _trailLength = 0.15f; // kuyruk uzunluğu
-    [SerializeField] private float _smoothness = 0.15f; // takip yumuşaklığı
+    [SerializeField] private float _smoothness = 0.02f; // takip yumuşaklığı
     [SerializeField] private bool _startDelay = false; // başlangıçta yavaşça uzasın mı?
     [SerializeField] private float _delayLength = 1; // uzama süresi
     void Awake()
